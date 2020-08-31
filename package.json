@@ -12,7 +12,7 @@
     "Vue starter"
   ],
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --host 0.0.0.0",
     "build": "rimraf dist && cross-env NODE_ENV=production webpack --hide-modules",
     "analyze": "rimraf dist && cross-env NODE_ENV=analyze webpack --hide-modules",
     "serve:build": "npx http-server ./dist -p 3001 --cors --push-state",
