@@ -1,5 +1,5 @@
 FROM estat/node
-LABEL author="Fazenda"
+LABEL author="Fazendaaa"
 LABEL project="friendly-vue-starter"
 
 WORKDIR /usr/src
